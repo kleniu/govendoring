@@ -13,7 +13,11 @@ export PATH=$GOPATH/bin:$PATH
 ```
 
 ## Start to use it
+init
+```
+govendor init
+```
 pull all dependencies from network remotes
 ```
-govendor fetch +out.
+govendor fetch +out
 ```
